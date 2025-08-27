@@ -4,11 +4,12 @@ from fastapi.middleware.cors import CORSMiddleware
 from typing import Optional
 import os
 import requests
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 
 # ------------------------------
 # Load Gemini API Key
 # ------------------------------
+GEMINI_API_KEY = ""
 GEMINI_CONFIGURED = bool(GEMINI_API_KEY)
 
 # ------------------------------
