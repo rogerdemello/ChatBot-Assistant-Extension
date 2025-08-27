@@ -1,0 +1,20 @@
+# FastAPI Backend Requirements
+
+# Core FastAPI
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+
+# CORS support
+python-multipart==0.0.6
+
+# HTTP requests
+requests==2.31.0
+
+# For OpenAI integration (optional)
+openai==0.28.1
+
+# For async operations
+aiofiles==23.2.1
+
+# For environment variables
+python-dotenv==1.0.0
