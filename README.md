@@ -8,10 +8,15 @@ This backend is designed to work with browser extensions or frontend clients, su
 ## ✨ Features
 
 ✅ REST API endpoints with FastAPI
+
 ✅ Google Gemini API integration (`gemini-1.5-flash` by default)
+
 ✅ Simple in-memory conversation memory
+
 ✅ CORS enabled for browser extensions
+
 ✅ Health check and echo endpoints for easy testing
+
 
 ---
 
@@ -52,6 +57,7 @@ pip install -r requirements.txt
 ### 4. Set Your Google Gemini API Key
 
 Get your API key from [Google AI Studio](https://aistudio.google.com/app/apikey)
+
 Then set it in ```.env``` file.
 
 ---
@@ -63,6 +69,7 @@ python -m uvicorn main:app --reload --host 127.0.0.1 --port 8000
 ```
 
 Your API will be running at:
+
 📍 [http://127.0.0.1:8000](http://127.0.0.1:8000)
 
 ---
@@ -142,3 +149,4 @@ You can auto-generate a `requirements.txt`:
 ```bash
 pip freeze > requirements.txt
 ```
+
